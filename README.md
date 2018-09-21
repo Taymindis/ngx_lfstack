@@ -29,7 +29,7 @@ http {
     ngx_lfstack_name s1;
     ngx_lfstack_name s2;
     ngx_lfstack_name s3;
-    ngx_lfstack_backup "|@|" /tmp/ngx_lfstack_data.txt;	
+    ngx_lfstack_backup |@| /tmp/ngx_lfstack_data.txt;	
     ...
 }
 ```
