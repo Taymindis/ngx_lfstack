@@ -76,7 +76,39 @@ server {
 }
 ```
 
+```bash
 
+# for push
+POST /processStack HTTP/1.1
+Host: 127.0.0.1
+Cache-Control: no-cache
+Postman-Token: 858bacc8-4826-9d8e-5ec5-fde220351b5d
+
+{"Data":"MESSAGE 1......."}
+
+#  for pop
+
+GET /processStack HTTP/1.1
+Host: 127.0.0.1
+Cache-Control: no-cache
+Postman-Token: a0f89290-981a-2e18-cd99-40fa7fe734a0
+
+#  for pop by using variable pass in 
+
+
+GET /processStackWithArgVariable?target=q2 HTTP/1.1
+Host: 127.0.0.1
+Cache-Control: no-cache
+Postman-Token: a0f89290-981a-2e18-cd99-40fa7fe734a0
+
+#  for queue info
+
+HEAD /processStack HTTP/1.1
+Host: 127.0.0.1
+Cache-Control: no-cache
+Postman-Token: 487251d4-51e9-33ee-58cf-343f259df27b
+
+```
 
 Installation
 ============
