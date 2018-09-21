@@ -153,6 +153,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 
-## You may also like nginx lock free stack 
+## You may also like nginx lock free queue LIFO 
 
-[ngx_lfstack](https://github.com/Taymindis/ngx_lfstack)
+[ngx_lfqueue](https://github.com/Taymindis/ngx_lfqueue)
